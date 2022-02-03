@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body class="bg-dark">
+
+<!-- navbar start -->
+<nav class="navbar navbar-dark fixed-top bg-dark shadow-sm">
+    <div class="container-lg">
+        <a class="navbar-brand text-danger fw-bold fs-4" href="#">PORTFOLIO</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+                </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Home</a></li>
+                        <li><a class="dropdown-item" href="#">About</a></li>
+                        <li><a class="dropdown-item" href="#">Skills</a></li>
+                        <li><a class="dropdown-item" href="#">Contact Me</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!-- navbar end -->
+
+<!-- home start -->
+    <section class="home pt-2" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="home-img text-center">
+                    <img src="img/profile.jpg" alt="profile img" class="rounded-circle mw-100">
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-text">
+                    <p class="text-muted mb-1">Hello I'm</p>
+                    <h1 class="text-danger fs-1 fw-bold">Muhammad Rizkia</h1>
+                    <h3 class="text-light fs-4">Bachelor of Computer Engineering</h3>
+                    <p class="mt-4 text-light ">I'm an enthusiast of technology and website. I have diverse set of skills, ranging from UI Design, to HTML + CSS + Javascript.</p>
+                    <a href="#contact" class="btn btn-danger px-3 mt-4">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- home end -->
+
+<!-- about start -->
+<section class="about bg-dark py-5" id="about">
+        <div class="container-lg">
+            <h1 class="text-center text-light ">About</h1>
+            <hr>
+            <div class="row py-5">
+            <div class="col-md-6">
+                <div class="about-img ">
+                    <img src="img/about.jpg" alt="about" class="img-thumbnail">
+                </div>
+            </div>   
+            <div class="col-md-6">
+                <div class="about-text">
+                    <h3 class="text-light">About Me</h3>
+                    <p class="text-light py-2">A bachelor of Computer Engineering from Telkom University with Specializing in collaborating with client to gather requirements, produce plans and improve designs for usability and functionality. Fully proficient in HTML, CSS, and Javascript.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+</section> 
+<!-- about end -->
+
+<!-- skills start -->
+<section class="skills bg-dark py-5" id="skills">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h1 class="text-light">My Skills</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="min-height: 100vh;">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/html1.jpg" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-light">HTML</h5>
+                      <p class="text-light">have a knowledge of basic css and can implement HTML.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/css1.jpg" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-light">CSS</h5>
+                      <p class="text-light">have a knowledge of basic css and can implement CSS. </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/js1.jpg" class="d-block w-100 opacity-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-light">Javascript</h5>
+                      <p class="text-light">have a knowledge of basic javascript</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- skills end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
